@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="user">
+ <copy file="User.php" tofile="builds/User.php"/>
+</project>
