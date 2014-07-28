@@ -6,7 +6,7 @@ class UserTest extends PHPUnit_Framework_TestCase
 	
 	protected function setUp() {
         $this->user = new User();
-        $this->user->setName("Tom");
+        $this->user->setName("");
     }
 	
 	protected function tearDown() {
