@@ -1,4 +1,5 @@
 <?php
+require_once "PHPUnit/Autoload.php";
 require_once "User.php";
 class UserTest extends PHPUnit_Framework_TestCase
 {
