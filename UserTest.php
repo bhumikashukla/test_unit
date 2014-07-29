@@ -1,5 +1,4 @@
 <?php
-require_once "PHPUnit/Autoload.php";
 require_once "User.php";
 class UserTest extends PHPUnit_Framework_TestCase
 {
@@ -7,7 +6,7 @@ class UserTest extends PHPUnit_Framework_TestCase
 	
 	protected function setUp() {
         $this->user = new User();
-        $this->user->setName("Tom");
+        $this->user->setName("");
     }
 	
 	protected function tearDown() {
